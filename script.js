@@ -1,16 +1,16 @@
-const dayNumber = 2; // input 1 - 7  โดย 1 เท่ากับวันอาทิตย์ 7 เท่ากับวันเสาร์
+const dayNumber = 7; // input 1 - 7  โดย 1 เท่ากับวันจันทร์ 7 เท่ากับวันอาทิตย์
 if (dayNumber === 1) {
   console.log("สวัสดีวันจันทร์");
 } else if (dayNumber === 2) {
-  console.log("สวัสดีอังคาร");
+  console.log("สวัสดีวันอังคาร");
 } else if (dayNumber === 3) {
-  console.log("สวัสดีพุธ");
+  console.log("สวัสดีวันพุธ");
 } else if (dayNumber === 4) {
-  console.log("สวัสดีพฤหัสบดี");
+  console.log("สวัสดีวันพฤหัสบดี");
 } else if (dayNumber === 5) {
-  console.log("สวัสดีศุกร์");
+  console.log("สวัสดีวันศุกร์");
 } else if (dayNumber === 6) {
-  console.log("สวัสดีเสาร์");
+  console.log("สวัสดีวันเสาร์");
 } else {
-  console.log("สวัสดีอาทิตย์");
+  console.log("สวัสดีวันอาทิตย์");
 }
